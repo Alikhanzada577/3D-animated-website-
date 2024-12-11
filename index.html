@@ -8,7 +8,35 @@
 
 </head>
 <body>
-  <canvas id="canvas"></canvas>
+  <div class="main w-full">
+    <nav class="w-full fixed top-0 left-0 px-10 py-3 flex justify-between items-center">
+      <img class=" w-[160px]  mix-blend-screen [filter:saturate(150%)]"
+     src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=640&crop=smart&auto=webp&s=8c31445d1ee6f6993331b7d7d11bad170086631c"
+      alt="cyber punk logo"/>
+      <div class="flex gap-5 items-center"> 
+
+        <a href="#" class="tracking-tight text-white hover:text-blue-400 transition-all [text-shadow:0_0_50px_#60A5FA,0_0_20px_#60A5FA,0_0_30px_#60A5FA] hover:[text-shadow:0_0_15px_#60A5FA,0_0_25px_#60A5FA,0_0_35px_#60A5FA]">Home</a>
+        <a href="#" class="tracking-tight text-white hover:text-blue-400 transition-all [text-shadow:0_0_50px_#60A5FA,0_0_20px_#60A5FA,0_0_30px_#60A5FA] hover:[text-shadow:0_0_15px_#60A5FA,0_0_25px_#60A5FA,0_0_35px_#60A5FA]">Games</a>
+        <a href="#" class="tracking-tight text-white hover:text-blue-400 transition-all [text-shadow:0_0_5px_#60A5FA,0_0_20px_#60A5FA,0_0_30px_#60A5FA] hover:[text-shadow:0_0_15px_#60A5FA,0_0_25px_#60A5FA,0_0_35px_#60A5FA]">News</a>
+        <a href="#" class="tracking-tight text-white hover:text-blue-400 transition-all [text-shadow:0_0_50px_#60A5FA,0_0_20px_#60A5FA,0_0_30px_#60A5FA] hover:[text-shadow:0_0_15px_#60A5FA,0_0_25px_#60A5FA,0_0_35px_#60A5FA]">Community</a>
+        <a href="#" class="tracking-tight text-white hover:text-blue-400 transition-all [text-shadow:0_0_50px_#60A5FA,0_0_20px_#60A5FA,0_0_30px_#60A5FA] hover:[text-shadow:0_0_15px_#60A5FA,0_0_25px_#60A5FA,0_0_35px_#60A5FA]">Support</a>
+        <button class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-500 transition-all">Play Now</button>
+      </div>
+    </nav>
+    <div class="w-full h-[150vh] overflow-hiden"
+    > 
+    <img class="absolute w-3/4  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1] mix-blend-screen [filter:saturate(150%)_contrast(150%)]"
+     src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=640&crop=smart&auto=webp&s=8c31445d1ee6f6993331b7d7d11bad170086631c"
+      alt="cyber punk logo"/>
+      <div class="w-[38rem] h-[38rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-2] rounded-full bg-blue-800 blur-[90px]"></div>
+    <canvas id="canvas"></canvas>
+  
+  </div>
+  <div class="w-full h-screen relative bg-[#888]">
+    <div class="w-full h-96 absolute top-0 left-0 -translate-y-1/2 bg-gradient-to-b from-black to-[#888]"></div>
+  </div>
+  </div>
+ 
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>
