@@ -7,6 +7,12 @@ import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
 import { RGBShiftShader } from 'three/examples/jsm/shaders/RGBShiftShader.js';
 import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
 import gsap from 'gsap';
+
+
+import LocomotiveScroll from 'locomotive-scroll';
+
+const locomotiveScroll = new LocomotiveScroll();
+
 //scene
 const scene = new THREE.Scene();
 //camera (fov=75 means how much field we can view)
